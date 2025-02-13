@@ -1,0 +1,30 @@
+{
+  "name": "exercicio-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nextui-org/react": "^2.6.11",
+    "@prisma/client": "^6.3.1",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "git": "^0.1.5",
+    "next": "^15.1.7",
+    "next-auth": "^4.24.11",
+    "prisma": "^6.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.1",
+    "@types/react": "19.0.8",
+    "typescript": "5.7.3"
+  }
+}

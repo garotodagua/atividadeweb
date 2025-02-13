@@ -1,0 +1,76 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2025-02-13T00:00:00.000Z",
+    "__export_source": "insomnia.desktop.app:v2023.1.0",
+    "resources": [
+      {
+        "_id": "wrk_1234567890",
+        "created": 0,
+        "description": "",
+        "modified": 0,
+        "name": "API de Alunos",
+        "parentId": null,
+        "type": "workspace"
+      },
+      {
+        "_id": "req_create_aluno",
+        "type": "request",
+        "parentId": "wrk_1234567890",
+        "modified": 0,
+        "created": 0,
+        "name": "Criar Aluno",
+        "method": "POST",
+        "url": "http://localhost:3000/api/alunos",
+        "body": {
+          "mimeType": "application/json",
+          "text": "{\n  \"nome\": \"João Silva\",\n  \"email\": \"joao@email.com\",\n  \"matricula\": \"123456\"\n}"
+        }
+      },
+      {
+        "_id": "req_listar_alunos",
+        "type": "request",
+        "parentId": "wrk_1234567890",
+        "modified": 0,
+        "created": 0,
+        "name": "Listar Alunos",
+        "method": "GET",
+        "url": "http://localhost:3000/api/alunos"
+      },
+      {
+        "_id": "req_buscar_aluno",
+        "type": "request",
+        "parentId": "wrk_1234567890",
+        "modified": 0,
+        "created": 0,
+        "name": "Buscar Aluno por ID",
+        "method": "GET",
+        "url": "http://localhost:3000/api/alunos/1"
+      },
+      {
+        "_id": "req_atualizar_aluno",
+        "type": "request",
+        "parentId": "wrk_1234567890",
+        "modified": 0,
+        "created": 0,
+        "name": "Atualizar Aluno",
+        "method": "PUT",
+        "url": "http://localhost:3000/api/alunos/1",
+        "body": {
+          "mimeType": "application/json",
+          "text": "{\n  \"nome\": \"João Atualizado\",\n  \"email\": \"joao@email.com\",\n  \"matricula\": \"654321\"\n}"
+        }
+      },
+      {
+        "_id": "req_deletar_aluno",
+        "type": "request",
+        "parentId": "wrk_1234567890",
+        "modified": 0,
+        "created": 0,
+        "name": "Deletar Aluno",
+        "method": "DELETE",
+        "url": "http://localhost:3000/api/alunos/1"
+      }
+    ]
+  }
+  
