@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
-// Criar um novo aluno (POST)
+
 export async function POST(req: Request) {
   try {
     const { nome, email, matricula } = await req.json();
@@ -22,7 +22,7 @@ export async function POST(req: Request) {
   }
 }
 
-// Listar todos os alunos (GET)
+
 export async function GET() {
   try {
     const alunos = await prisma.aluno.findMany();

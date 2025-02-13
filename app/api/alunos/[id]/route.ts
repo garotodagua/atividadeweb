@@ -4,7 +4,7 @@ import type { NextRequest } from "next/server";
 
 const prisma = new PrismaClient();
 
-// Buscar um aluno pelo ID (GET)
+
 export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
   try {
     const aluno = await prisma.aluno.findUnique({
